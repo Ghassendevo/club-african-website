@@ -1,0 +1,355 @@
+    body{
+   /* background-image: url("./background.jpg");*/
+    background-repeat:no-repeat;
+    background-size: cover;
+}
+.logo{
+    color: rgba(255, 0, 0, 0.671);
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+header{
+    border-top: 3px solid rgba(255, 0, 0, 0.671);
+    margin-top: -8px;
+}
+.hov{
+    color: #ff3334;
+    padding: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+}
+a{
+    text-decoration: none;
+}
+.a_conn{
+    color:#ff3334;font-family: Verdana, Geneva, Tahoma, sans-serif;letter-spacing: 1px;margin-top: 20px;
+}
+.a_conn{
+    color:#e02a2a; ;
+}
+.hov:hover{
+   
+    border-bottom: 2px solid #ff3334;
+    cursor: pointer;
+}
+.index{
+    color: #ff3334;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    padding: 20px;
+    border-bottom:2px solid #ff3334;
+    cursor: pointer;
+}
+h2{
+    color: white;
+}
+h3{
+    color: white;
+}
+.first{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;letter-spacing: 1px;color: white;
+}
+.first:hover{
+    transition: 0.6s;
+    font-size: 25px;
+}
+.cen{
+   width: 100%;
+   background-color: #ff3334;
+   height: 60vh;
+   text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    /*background-image: url("./background.jpg");*/
+}
+
+.log{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color:rgba(255, 0, 0, 0.671);
+    padding: 20px;
+    font-weight: 600;
+    border-radius: 10px;
+    color: white;
+}
+.log:hover{
+    transition: 0.4s;
+    cursor: pointer;
+    background-color:rgb(114, 47, 47); 
+}
+.in{
+    height: 40px;
+    width: 25%;
+    background-color:rgb(230, 97, 97);
+    text-align: center;
+    outline: none;
+    border:1px solid rgb(223, 130, 130);
+    border-radius: 15px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    
+}
+.in::placeholder{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.ine{
+    height: 40px;
+    width: 50%;
+    background-color:rgb(230, 97, 97);
+    text-align: center;
+    outline: none;
+    border:1px solid rgb(223, 130, 130);
+    border-radius: 15px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 15px;
+    
+}
+.ine::placeholder{
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.btn{
+    height: 60px;
+    width: 50%;
+    border-radius: 15px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;color: white;font-weight: 600;
+    background-color:rgba(255, 0, 0, 0.671);
+    border: 1px solid rgba(255, 0, 0, 0.671);
+    cursor: pointer;
+}
+.btn:hover{
+    transition: 0.1s;
+    background-color: rgba(136, 6, 6, 0.671);
+  /*  color: rgba(255, 0, 0, 0.671);*/
+}
+.login{
+    width: 100%;
+    padding: 20px;
+    color: #ff3334;
+    font-weight: 400;
+    font-size: 18px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    background-color: white;
+    border-radius: 5px;
+    animation-name: one;
+    animation-duration: 3s;
+    position: relative;
+}
+.login:hover{
+    transition: 0.4s;
+    font-size: 20px;
+
+}
+.ins{
+    background-color: #ff3334;
+    color: white;
+    font-size: 18px;
+    font-weight: 400;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    border:1px solid white;
+    padding: 20px;
+    animation-name: one;
+    animation-duration: 3s;
+    position: relative;
+}
+.ins:hover{
+  transition: 0.4s;
+  font-size: 20px;
+}
+.acc{
+    font-family: verdana;color: white;font-size: 30px;font-weight: 100;letter-spacing: 4px;
+    animation-name: one;
+    animation-duration: 1.5s;
+    position: relative;
+}
+.bien{
+    color: white;font-family: Verdana, Geneva, Tahoma, sans-serif;letter-spacing: 3px;animation-duration: 3s;
+    position: relative;
+    animation-name: one;
+    animation-duration: 2s;
+    position: relative;
+}
+.mei{
+    color: white;font-family: Verdana, Geneva, Tahoma, sans-serif;letter-spacing: 3px;
+    animation-name: one;
+    animation-duration: 3s;
+    position: relative;
+}
+.zoom {
+	-webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .3s ease-in-out;
+	transition: .3s ease-in-out;
+    border-radius: 5px;
+}
+.zoom:hover {
+	-webkit-transform: scale(1.1);
+	transform: scale(1.1);
+}
+footer{
+    background-color: #f9dbdb;
+}
+.a:hover{
+    text-decoration: underline;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.donnes{
+    height: 60px;
+    background-color: rgb(247, 244, 244);
+    margin-left: auto;
+    text-align: center;
+    border-radius: 10px;
+    margin-right: auto;
+    width: 100%;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+.donnes::placeholder{
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.donnes:focus{
+    border:1px solid #ff3334;
+}
+.donness{
+    height: 60px;
+    background-color: rgb(247, 244, 244);
+    
+    text-align: center;
+    border-radius: 10px;
+    
+    width: 48%;
+    border: none;
+    outline: none;
+    text-align: center;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    margin-bottom: 20px;
+}
+.donness:focus{
+    border:1px solid #ff3334;
+}
+.submit{
+    
+    background-color: #ff3334;
+    border: 1px solid #ff3334;
+    border-radius: 10px;
+    color: white;
+    font-size: 20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    
+    height: 60px;
+    width: 100%;
+}
+.submit:hover{
+    transition:0.4s;
+    cursor: pointer;
+    background-color: #d62424;
+
+}
+@keyframes one {
+        0%{
+            left: -50%;
+        }
+        50%{
+            left: 0%;
+        }
+       
+}
+.news_main{
+    width: 32%;
+    height: 45vh;
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    cursor: pointer;
+    -webkit-transform: scale(1);
+	transform: scale(1);
+	-webkit-transition: .1s ease-in-out;
+	transition: .1s ease-in-out;
+   
+    
+}
+
+.news_main:hover{
+    cursor: pointer;
+    -webkit-transform: scale(1.03);
+	transform: scale(1.03);
+}
+.news_a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;color: white;letter-spacing: 1px;padding:5px;
+    background-color: #ff3334;
+    font-size: 14px;
+}
+.news_a:hover{
+    background-color: #d62424;
+    cursor: pointer;
+    transition: 0.4s;
+}
+.plus{
+    padding:10px 20px 10px 20px;
+    color: white;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+    background-color: #ff3334;
+}
+.plus:hover{
+    background-color: #d62424;
+}
+.fo_in{
+    width: 90%;
+    height: 50px;
+    font-size: 15px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    outline: none;
+    border:none;
+    color: gray;
+    background-color: rgb(247, 244, 244);
+    text-align: center;
+}
+a{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    letter-spacing: 1px;
+}
+.a_nouvelle:hover{
+    background-color: rgb(236, 235, 235);
+
+}
+.p_nouvelle:hover{
+    color:#ff3334;
+    cursor: pointer;
+}
+.tt{
+    width: 100%;
+    box-shadow: 1px 0px 5px 5px rgba(214,212,212,0.75);
+            -webkit-box-shadow: 1px 0px 5px 5px rgba(214,212,212,0.75);
+            -moz-box-shadow: 1px 0px 5px 5px rgba(214,212,212,0.75);
+    border-bottom: 4px solid #ff3334; ;
+            
+}
+td{
+  
+    height: 50px;
+    text-align: center;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.tr{
+    
+}
+.tr:hover{
+    background-color: rgba(240, 240, 240, 0.75);
+}
+.tr>.td1:hover{
+   background-color: red;
+}
+
